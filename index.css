@@ -1,0 +1,146 @@
+#bg-image {
+	background-image:url('https://i.pinimg.com/originals/88/15/63/881563d6444b370fa4ceea0c3183bb4c.gif'); background-repeat:repeat;
+	background-size: 100%;
+	background-position: center;
+	height: 100vh;
+}
+
+.front-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+}
+
+.title, .title-2 {
+	font-family: 'Zilla Slab', serif;
+	font-size: 40px;
+	margin-bottom: 100px;
+}
+
+.container {
+	width: 50%;
+	float: center;
+	text-align: center;
+	color: white;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  padding: 1rem;
+  font-family: 'Zilla Slab', serif;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+}
+
+.text-overlay1 {
+  position: absolute;
+  top: 27%;
+  left: 40%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Zilla Slab', serif;
+  font-size: 40px;
+  font-weight: 100;
+  color: white;
+}
+
+.apply-button {
+	position: absolute;
+    top: 45%;
+    left: 41%;
+	color: white;
+	font-weight: bold;
+	border-radius:  25px;
+	border: none;
+	font-family: 'Zilla Slab', serif;
+	font-size: 40px;
+	padding: 1px;
+	width: 350px;     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: solid;
+    cursor:pointer;
+    overflow: hidden;        
+}
+
+.intro {
+	text-align: center;
+	padding: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 50px;
+}
+
+.intro1 {
+	text-align: left;
+	padding: 50px;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 50px;
+}
+
+.intro-description {
+    text-align: left;
+    padding-bottom: 0;
+    margin-right: 40px;
+  }
+
+.losange, .losange div {
+  margin: 0 auto;
+  transform-origin: 50% 50%;
+  overflow: hidden;
+  width: 250px;
+  height: 250px;
+}
+
+.losange {
+  transform: rotate(45deg) translateY(10px);
+}
+
+.losange .los1 {
+  width: 355px;
+  height: 355px;
+  transform: rotate(-45deg) translateY(-74px);
+}
+
+.losange .los1 img {
+  width: 100%;
+  height: auto;
+}
+
+ #about {
+    text-align: left;
+    padding-bottom: 0;
+  }
+
+  #about .about-info:first-child {
+    margin-right: 40px;
+  }
+
+  .about-info .section-title {
+    margin: 40px 0 40px 0;
+  }
+
+  .about-info {
+    margin-top: 60px;
+  }
+
+  .skill-thumb strong {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  .skill-thumb .progress {
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: none;
+    height: 3px;
+    margin-bottom: 25px;
+  }
+
+  .skill-thumb .progress-bar {
+    background: #1f1f1f;
+    box-shadow: none;
+  }
